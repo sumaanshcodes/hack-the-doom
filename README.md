@@ -1,16 +1,114 @@
-# React + Vite
+# HACK THE DOOM
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+### Build. Break. Survive.
 
-Currently, two official plugins are available:
+A cinematic, futuristic hackathon experience built for **Hack4Tech, GLA University, Mathura**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Hack The Doom is designed as a premium event platform where participants can explore the hackathon, discover problem domains, view rewards, meet judges and mentors, follow the event timeline, read the official rules, and register their teams through a custom registration experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ⚡ Overview
 
-## Expanding the Oxlint configuration
+**Hack The Doom** is a frontend-focused hackathon website developed with modern React technologies and a cinematic mission-control visual language.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The website combines:
+
+- Futuristic dark UI
+- Metallic interfaces
+- Gamma-green energy accents
+- Cinematic section backgrounds
+- Interactive domain exploration
+- Mission-style event timeline
+- Premium sponsor and profile showcases
+- Multi-step team registration
+- Google Sheets based registration submission
+
+The goal is to provide participants with an immersive experience while keeping the interface fast, responsive, and easy to navigate.
+
+---
+
+## ✨ Key Features
+
+### 🎬 Cinematic Hero
+- Original futuristic armored visual direction
+- Hackathon branding and tagline
+- Configurable event countdown
+- Strong primary call-to-action
+- Responsive cinematic layout
+
+### 🧠 Mission Intelligence
+A dedicated event intelligence section presenting important hackathon information without relying on generic statistic cards.
+
+### 🛰️ Hackathon Domains
+- Interactive domain cards
+- Domain-specific problem statements
+- Detailed problem statement modal
+- Centralized domain data architecture
+- Responsive presentation
+
+### 🏆 Bounty / Rewards
+A premium reward section designed around the hackathon's mission aesthetic.
+
+Official reward information can be configured without hard-coding unverified amounts.
+
+### 🏢 Event Sponsors
+- Event sponsor showcase
+- Horizontal auto-scrolling carousel
+- Hover/focus interaction
+- Selected sponsor emphasis
+- Sponsor description support
+
+### 🤝 Past Sponsors
+A separate showcase for previous sponsors using the same premium carousel system.
+
+> Sample/demo sponsor information is clearly treated as placeholder content until official data is provided.
+
+### ⚔️ Judges & Mentors
+- Interactive profile carousel
+- Profile emphasis on hover/focus
+- Name and designation display
+- Responsive layout
+
+> Sample/demo profiles are placeholders until official event information is available.
+
+### 🗺️ Mission Timeline
+A mission-control inspired timeline featuring:
+- Event milestones
+- Energy-style visual rail
+- Timeline nodes
+- Responsive progression
+- Cinematic section presentation
+
+### 📜 Rules & FAQ
+The Rules & FAQ section is structured to use the **official event document as the source of truth**.
+
+Official wording should be preserved when publishing the final event content.
+
+### 📝 Custom Registration
+A multi-step registration experience with:
+
+- Team information
+- Captain information
+- Member information
+- Domain selection
+- Problem statement selection
+- Project information
+- Strong email validation
+- Indian phone number validation
+- Duplicate team-member email prevention
+- Draft preservation
+- Registration confirmation
+
+### 📊 Google Sheets Integration
+
+Registration data can be submitted through:
+
+```text
+React Registration UI
+        ↓
+Client-side Validation
+        ↓
+Google Apps Script
+        ↓
+Google Sheets
